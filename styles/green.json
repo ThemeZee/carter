@@ -1,0 +1,124 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Green",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#00cb19",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#06e432",
+					"name": "Secondary"
+				},
+				{
+					"slug": "light-gray",
+					"color": "#abacad",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "medium-gray",
+					"color": "#2c2d2e",
+					"name": "Medium Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#1f2021",
+					"name": "Gray"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#121314",
+					"name": "Dark Gray"
+				}
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"size": "14px",
+					"fluid": false,
+					"slug": "tiny",
+					"name": "Tiny"
+				},
+				{
+					"size": "15px",
+					"fluid": false,
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"size": "18px",
+					"fluid": false,
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"size": "20px",
+					"fluid": {
+						"min": "1.125rem",
+						"max": "1.25rem"
+					},
+					"slug": "medium",
+					"name": "Medium"
+				},
+				{
+					"size": "24px",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					},
+					"slug": "large",
+					"name": "Large"
+				},
+				{
+					"size": "32px",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					},
+					"slug": "x-large",
+					"name": "Extra Large"
+				},
+				{
+					"size": "40px",
+					"fluid": {
+						"min": "2rem",
+						"max": "2.5rem"
+					},
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
+				},
+				{
+					"size": "56px",
+					"fluid": {
+						"min": "2.5rem",
+						"max": "3.5rem"
+					},
+					"slug": "xxx-large",
+					"name": "Extra Extra Extra Large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#121314",
+			"text": "#abacad"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--quicksand)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--quicksand)"
+		}
+	}
+}

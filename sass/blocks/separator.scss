@@ -1,0 +1,26 @@
+/* Separator Block */
+hr.wp-block-separator {
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	background-color: currentColor;
+	height: 2px;
+	opacity: 1;
+
+	// Default style.
+	&:not(.is-style-wide):not(.is-style-thin):not(.is-style-dots) {
+		width: 80px;
+		height: 4px;
+	}
+
+	// Dots.
+	&.is-style-dots {
+		height: auto;
+		opacity: 1;
+
+		&:before {
+			letter-spacing: 1em;
+			padding-left: 1em;
+		}
+	}
+}

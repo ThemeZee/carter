@@ -1,0 +1,124 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Grapes",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#d699d6",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#f0b3f0",
+					"name": "Secondary"
+				},
+				{
+					"slug": "light-gray",
+					"color": "#a17fa1",
+					"name": "Light Gray"
+				},
+				{
+					"slug": "medium-gray",
+					"color": "#3c1a3c",
+					"name": "Medium Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#2f0d2f",
+					"name": "Gray"
+				},
+				{
+					"slug": "dark-gray",
+					"color": "#220022",
+					"name": "Dark Gray"
+				}
+			]
+		},
+		"typography": {
+			"fontSizes": [
+				{
+					"size": "14px",
+					"fluid": false,
+					"slug": "tiny",
+					"name": "Tiny"
+				},
+				{
+					"size": "15px",
+					"fluid": false,
+					"slug": "small",
+					"name": "Small"
+				},
+				{
+					"size": "18px",
+					"fluid": false,
+					"slug": "base",
+					"name": "Base"
+				},
+				{
+					"size": "20px",
+					"fluid": {
+						"min": "1.125rem",
+						"max": "1.25rem"
+					},
+					"slug": "medium",
+					"name": "Medium"
+				},
+				{
+					"size": "24px",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.5rem"
+					},
+					"slug": "large",
+					"name": "Large"
+				},
+				{
+					"size": "32px",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					},
+					"slug": "x-large",
+					"name": "Extra Large"
+				},
+				{
+					"size": "40px",
+					"fluid": {
+						"min": "2rem",
+						"max": "2.5rem"
+					},
+					"slug": "xx-large",
+					"name": "Extra Extra Large"
+				},
+				{
+					"size": "56px",
+					"fluid": {
+						"min": "2.5rem",
+						"max": "3.5rem"
+					},
+					"slug": "xxx-large",
+					"name": "Extra Extra Extra Large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "#220022",
+			"text": "#a17fa1"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--manrope)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--manrope)"
+		}
+	}
+}
