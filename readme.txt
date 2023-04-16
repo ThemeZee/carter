@@ -16,6 +16,9 @@ Carter is a simple and elegant business theme with a dark background and stunnin
 
 == Changelog ==
 
+= 1.0.1 - 2023-04-16 =
+* fix phpcs issues
+
 = 1.0 - 2023-02-27 =
 * Initial Release
 

@@ -39,11 +39,11 @@
 
 			<!-- wp:social-links {"iconColor":"light-gray","iconColorValue":"#abacad","size":"has-small-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-logos-only"} -->
 			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:var(--wp--preset--spacing--20)">
-			
+
 				<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
 				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
 				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
-		
+
 			</ul>
 			<!-- /wp:social-links -->
 
@@ -69,7 +69,7 @@
 
 			<!-- wp:social-links {"iconColor":"light-gray","iconColorValue":"#abacad","size":"has-small-icon-size","style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"className":"is-style-logos-only"} -->
 			<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-logos-only" style="margin-top:var(--wp--preset--spacing--20)">
-			
+
 				<!-- wp:social-link {"url":"mailto://example@email.com","service":"mail"} /-->
 				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
 				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
