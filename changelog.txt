@@ -1,0 +1,10 @@
+*** Carter Changelog ***
+
+2023-04-16 - version 1.0.2
+* Add changelog file
+
+2023-04-16 - version 1.0.1
+* Fix phpcs issues
+
+2023-02-27 - version 1.0.0
+* Initial release

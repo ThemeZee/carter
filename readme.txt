@@ -14,14 +14,6 @@ Carter is a simple and elegant business theme with a dark background and stunnin
 
 Carter is a simple and elegant business theme with a dark background and stunning typography. It supports a large number of block patterns, with which you can easily create complex pages. 
 
-== Changelog ==
-
-= 1.0.1 - 2023-04-16 =
-* fix phpcs issues
-
-= 1.0 - 2023-02-27 =
-* Initial Release
-
 == Copyright ==
 
 Carter WordPress Theme, Copyright 2022 ThemeZee.com
