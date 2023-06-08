@@ -47,6 +47,8 @@ class Carter_Admin_Page {
 
 	/**
 	 * Display settings page
+	 *
+	 * phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 	 */
 	public static function render_settings_page() {
 		ob_start();
@@ -67,7 +69,6 @@ class Carter_Admin_Page {
 		</div>
 
 		<?php
-		// phpcs:ignore
 		echo ob_get_clean();
 	}
 
@@ -111,11 +112,6 @@ class Carter_Admin_Page {
 	 * @return array
 	 */
 	public static function sanitize_settings( $input = array() ) {
-		// phpcs:ignore
-		if ( empty( $_POST['_wp_http_referer'] ) ) {
-			return $input;
-		}
-
 		$saved = get_option( 'carter_theme_settings', array() );
 		if ( ! is_array( $saved ) ) {
 			$saved = array();

@@ -74,6 +74,8 @@ class Carter_Demo_Content_Settings {
 	 * Demo Content Callback
 	 *
 	 * @param array $args Arguments passed by the setting.
+	 *
+	 * phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 	 */
 	public static function render_demo_content_setting( $args ) {
 		$options      = self::get_settings();
@@ -93,7 +95,6 @@ class Carter_Demo_Content_Settings {
 
 		$html .= '<br/><input type="submit" class="button" name="carter_import_demo_content" value="' . esc_attr__( 'Import Content', 'carter' ) . '"/>';
 
-		// phpcs:ignore
 		echo $html;
 		wp_nonce_field( 'carter_demo_content_nonce', 'carter_demo_content_nonce' );
 	}
@@ -123,7 +124,7 @@ class Carter_Demo_Content_Settings {
 			try {
 				$categories = self::create_demo_categories();
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_categories', esc_html__( 'Categories were successfully imported.', 'carter' ), 'success' );
-			} catch ( Throwable ) {
+			} catch ( Throwable $e ) {
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_categories', esc_html__( 'Categories could not be imported.', 'carter' ), 'error' );
 			}
 		}
@@ -133,7 +134,7 @@ class Carter_Demo_Content_Settings {
 			try {
 				$image_id = self::create_demo_image();
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_image', esc_html__( 'Featured images were successfully imported.', 'carter' ), 'success' );
-			} catch ( Throwable ) {
+			} catch ( Throwable $e ) {
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_image', esc_html__( 'Featured images could not be imported.', 'carter' ), 'error' );
 			}
 		}
@@ -142,7 +143,7 @@ class Carter_Demo_Content_Settings {
 			try {
 				self::create_demo_posts( $categories, $image_id );
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_posts', esc_html__( 'Blog Posts were successfully imported.', 'carter' ), 'success' );
-			} catch ( Throwable ) {
+			} catch ( Throwable $e ) {
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_posts', esc_html__( 'Blog Posts could not be imported.', 'carter' ), 'error' );
 			}
 		}
@@ -151,7 +152,7 @@ class Carter_Demo_Content_Settings {
 			try {
 				self::create_demo_pages();
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_pages', esc_html__( 'Static pages were successfully imported.', 'carter' ), 'success' );
-			} catch ( Throwable ) {
+			} catch ( Throwable $e ) {
 				add_settings_error( 'carter_theme_settings_notices', 'demo_import_pages', esc_html__( 'Static pages could not be imported.', 'carter' ), 'error' );
 			}
 		}
