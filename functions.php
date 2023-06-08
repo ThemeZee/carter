@@ -117,3 +117,10 @@ function carter_register_block_styles() {
 	);
 }
 add_action( 'init', 'carter_register_block_styles', 9 );
+
+
+/**
+ * Include Theme Setup settings.
+ */
+require_once get_parent_theme_file_path( '/includes/class-carter-admin-page.php' );
+require_once get_parent_theme_file_path( '/includes/class-carter-demo-content-settings.php' );
