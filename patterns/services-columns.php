@@ -3,7 +3,10 @@
  * Title: Services (Columns)
  * Slug: carter/services-columns
  * Categories: carter_services
-*/
+ *
+ * @package Carter
+ */
+
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"contentSize":"1440px","wideSize":"1440px","type":"constrained"}} -->

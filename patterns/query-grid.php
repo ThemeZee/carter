@@ -4,7 +4,10 @@
  * Slug: carter/query-grid
  * Block Types: core/query
  * Categories: query
-*/
+ *
+ * @package Carter
+ */
+
 ?>
 
 <!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2}} -->

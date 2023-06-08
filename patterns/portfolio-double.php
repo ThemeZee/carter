@@ -3,7 +3,10 @@
  * Title: Portfolio (Double)
  * Slug: carter/portfolio-double
  * Categories: carter_portfolio
-*/
+ *
+ * @package Carter
+ */
+
 ?>
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"0"}}},"layout":{"contentSize":"1440px","wideSize":"1440px","type":"constrained"}} -->

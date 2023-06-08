@@ -3,7 +3,10 @@
  * Title: Footer Text
  * Slug: carter/footer-text
  * Inserter: no
-*/
+ *
+ * @package Carter
+ */
+
 ?>
 
 <!-- wp:paragraph {"className":"flip-link-hover"} -->
