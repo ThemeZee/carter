@@ -47,8 +47,6 @@ class Carter_Admin_Page {
 
 	/**
 	 * Display settings page
-	 *
-	 * phpcs:disable WordPress.Security.EscapeOutput.OutputNotEscaped
 	 */
 	public static function render_settings_page() {
 		ob_start();
@@ -69,7 +67,43 @@ class Carter_Admin_Page {
 		</div>
 
 		<?php
-		echo ob_get_clean();
+		echo wp_kses(
+			ob_get_clean(),
+			array(
+				'div'   => array(
+					'class' => array(),
+				),
+				'h1'    => array(),
+				'h2'    => array(),
+				'br'    => array(),
+				'p'     => array(),
+				'table' => array(
+					'class' => array(),
+					'role'  => array(),
+				),
+				'tbody' => array(),
+				'tr'    => array(),
+				'th'    => array(
+					'scope' => array(),
+				),
+				'td'    => array(),
+				'form'  => array(
+					'method' => array(),
+					'action' => array(),
+				),
+				'input' => array(
+					'class'   => array(),
+					'type'    => array(),
+					'name'    => array(),
+					'id'      => array(),
+					'value'   => array(),
+					'checked' => array(),
+				),
+				'label' => array(
+					'for' => array(),
+				),
+			)
+		);
 	}
 
 	/**
