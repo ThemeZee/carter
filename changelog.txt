@@ -1,5 +1,8 @@
 *** Carter Changelog ***
 
+2023-06-14 - version 1.1.1
+* fix phpcs issues
+
 2023-06-08 - version 1.1
 * add Demo Content Import feature
 
