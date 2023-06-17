@@ -1,5 +1,8 @@
 *** Carter Changelog ***
 
+2023-06-17 - version 1.1.2
+* add theme_info.txt file
+
 2023-06-14 - version 1.1.1
 * fix phpcs issues
 
