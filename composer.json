@@ -1,4 +1,19 @@
 {
+    "name": "themezee/carter",
+    "type": "wordpress-theme",
+    "description": "The Carter WordPress Theme",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "ThemeZee",
+            "email": "contact@themezee.com",
+            "homepage": "https://themezee.com/",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.7",
         "woocommerce/woocommerce-sniffs": "^0.1.3"
